@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* FinCal Hackathon Brand Palette */
+    /* Primary Blue: #224c87 -> HSL(215, 60%, 33%) */
+    /* Accent Red: #da3832 -> HSL(2, 68%, 53%) */
+    /* Neutral Grey: #919090 -> HSL(0, 0%, 57%) */
+    --background: 0 0% 100%;
+    --foreground: 215 60% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 60% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 60% 15%;
+    --primary: 215 60% 33%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 215 60% 20%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 57%;
+    --accent: 2 68% 53%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 215 10% 90%;
+    --input: 215 10% 90%;
+    --ring: 215 60% 33%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 215 60% 5%;
+    --foreground: 0 0% 95%;
+    --card: 215 60% 8%;
+    --card-foreground: 0 0% 95%;
+    --primary: 215 60% 45%;
+    --primary-foreground: 0 0% 100%;
+    --muted-foreground: 0 0% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline tracking-tight font-bold text-primary;
+  }
+}
+
+:focus-visible {
+  @apply outline-none ring-2 ring-ring ring-offset-2;
+}
