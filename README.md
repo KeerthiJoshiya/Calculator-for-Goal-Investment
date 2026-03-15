@@ -96,12 +96,20 @@ The UI is structured using semantic HTML and responsive layouts to improve acces
 
 This tool has been designed for information purposes only. Actual results may vary depending on various factors involved in capital markets. Investors should not consider the above as a recommendation for any schemes of HDFC Mutual Fund. Past performance may or may not be sustained in the future and is not a guarantee of future returns.
 
-Example:
+##Screenshots
 
-Home Page
-Calculator Interface
-Investment Results Panel
-Growth Chart Visualization
+### Calculator Interface
+![Calculator](Screenshot 2026-03-15 175921.png)
+
+### Investment Result Panel
+![Result](Screenshot 2026-03-15 175949.png)
+
+### Growth Chart Visualization
+![Chart](Screenshot 2026-03-15 180013.png)
+
+### Goal Summary / Output
+![Summary](Screenshot 2026-03-15 180042.png)
+
 
 ## Repository
 
